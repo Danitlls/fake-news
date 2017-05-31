@@ -109,16 +109,22 @@ ul li{
   .content {
     width: 88vw;
     margin: 2.5vw;
+    height: 360px;
   }
   .nav{
-    background-color: lightgrey;
+    color: white;
+    background-color: none;
     clear: right;
-
+    padding-top: 2vw;
+    width: 85vw;
   }
   ul li {
     display: inline-block;
     /*text-align: right;*/
-    font-size: 20px;
+    font-size: 15px;
+    width: 31%;
+    text-align: center;
+    background-color: #670e67;
   }
 
   .headers {
@@ -131,6 +137,12 @@ ul li{
     left: 5vw;
     background-color: gold;
 
+  }
+
+  .top {
+    background-color: purple;
+    width: 100%;
+    height: 50px;
   }
 
 }
