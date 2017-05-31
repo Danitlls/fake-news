@@ -37,10 +37,11 @@
 .title img {
   float: left;
   width: 15vw;
+  padding: 1vw;
 }
 
-.title {
-  background-color: tomato;
+.title img {
+  width: 8vw;
 }
 
 .nav {
@@ -70,15 +71,19 @@ ul li{
 }*/
 
 
-@media (max-width:920px) {
+@media (max-width:920px) and (min-width: 670px){
   .nav {
     float: left;
     clear: left;
+    margin: 1vw;
   }
 
   ul li {
     display: block;
-    color: coral;
+    color: grey;
+    /*text-align: right;*/
+    font-size: 25px;
+    border-bottom: 1px solid lightgrey;
 
   }
 
@@ -86,28 +91,34 @@ ul li{
     font-size: 3vw;
     float: left;
     clear: right;
-    margin: 20px;
+    margin: 20px 5px;
     position: relative;
     bottom: 50px;
-    left: 20%;
+    left: 11vw;
     background-color: gold;
-
   }
-
   .content {
     width: 44vw;
     margin: 2.5vw;
   }
-
 }
 
 
-@media (max-width: 620px) {
+@media (max-width: 670px) {
 
   .content {
     width: 88vw;
     margin: 2.5vw;
+  }
+  .nav{
+    background-color: lightgrey;
+    clear: right;
 
+  }
+  ul li {
+    display: inline-block;
+    /*text-align: right;*/
+    font-size: 20px;
   }
 
   .headers {
@@ -116,8 +127,8 @@ ul li{
     clear: right;
     margin: 20px;
     position: relative;
-    bottom: 50px;
-    left: 12%;
+    top: 10px;
+    left: 5vw;
     background-color: gold;
 
   }
